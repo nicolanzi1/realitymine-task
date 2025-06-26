@@ -34,7 +34,114 @@ How to Run the Script
 9. After, paste the full script from main.js (not including the fallback const watchTime array - Line 77 onwards)
 10. Press Enter to run it
 
-The extracted output will be logged as a formatted JSON object.
+The extracted output will be logged as a formatted JSON object, as follows:
+
+```json
+{
+  "items": [
+    {
+      "id": "UkLWZg9DAJ",
+      "date_watched": "2025-06-01T23:24:25+00:00",
+      "watch_secs": 3792,
+      "total_secs": 7860,
+      "title": "The Clickstream",
+      "episode_title": "",
+      "episode_number": null,
+      "season_number": null
+    },
+    {
+      "id": "gbHJdmfrXB",
+      "date_watched": "2025-05-16T20:21:22+00:00",
+      "watch_secs": 120,
+      "total_secs": 3420,
+      "title": "Browsing Habits: Episode 2",
+      "episode_title": "Episode 2",
+      "episode_number": 2,
+      "season_number": 1
+    },
+    {
+      "id": "EfhxLZ9ck8",
+      "date_watched": "2025-05-01T10:11:12+00:00",
+      "watch_secs": 1560,
+      "total_secs": 1560,
+      "title": "Incognito Mode: S3 E8",
+      "episode_title": "Episode 8",
+      "episode_number": 8,
+      "season_number": 3
+    },
+    {
+      "id": "VqXmZF31wY",
+      "date_watched": "2025-04-25T13:14:15+00:00",
+      "watch_secs": 3360,
+      "total_secs": 3480,
+      "title": "Terms & Conditions: CookieSnatch",
+      "episode_title": "Episode 1",
+      "episode_number": 1,
+      "season_number": 5
+    },
+    {
+      "id": "uw2YK1rnl0",
+      "date_watched": "2025-04-03T09:10:11+00:00",
+      "watch_secs": 8700,
+      "total_secs": 8700,
+      "title": "Buffering",
+      "episode_title": "",
+      "episode_number": null,
+      "season_number": null
+    },
+    {
+      "id": "OIJLhNcSbf",
+      "date_watched": "2025-03-13T19:18:17+00:00",
+      "watch_secs": 4020,
+      "total_secs": 4020,
+      "title": "User 237: The Conclusion",
+      "episode_title": "Episode 8",
+      "episode_number": 8,
+      "season_number": 1
+    },
+    {
+      "id": "AXs1igzRC6",
+      "date_watched": "2025-02-28T12:11:10+00:00",
+      "watch_secs": 60,
+      "total_secs": 1560,
+      "title": "Cookies Enabled",
+      "episode_title": "Episode 3",
+      "episode_number": 3,
+      "season_number": 7
+    },
+    {
+      "id": "p6klVeMgbn",
+      "date_watched": "2024-11-12T19:18:17+00:00",
+      "watch_secs": 2160,
+      "total_secs": 2700,
+      "title": "Pageviews E12",
+      "episode_title": "Episode 12",
+      "episode_number": 12,
+      "season_number": 1
+    },
+    {
+      "id": "nJqfPa3Cpe",
+      "date_watched": "2025-06-26T15:36:13.229Z",
+      "watch_secs": 6180,
+      "total_secs": 6300,
+      "title": "Session Timeout",
+      "episode_title": "",
+      "episode_number": null,
+      "season_number": null
+    },
+    {
+      "id": "98FqgRua4h",
+      "date_watched": "2025-06-26T15:36:13.229Z",
+      "watch_secs": 1560,
+      "total_secs": 1560,
+      "title": "The Consent Dialogues: S2, The JQuery Conundrum",
+      "episode_title": "Episode 9",
+      "episode_number": 9,
+      "season_number": 2
+    }
+  ]
+}
+```
 
 Enhancements Implemented
 - Pure function extractWatchHistory() -> Testable and reusable
