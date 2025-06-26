@@ -31,7 +31,7 @@ How to Run the Script
        const watchTime =
    ```
 8. Then, paste the watchTime array of objects you previously copied
-9. After, paste the full script from main.js
+9. After, paste the full script from main.js (not including the fallback const watchTime array - Line 77 onwards)
 10. Press Enter to run it
 
 The extracted output will be logged as a formatted JSON object.
