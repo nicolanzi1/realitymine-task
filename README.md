@@ -19,6 +19,7 @@ The task was to extract watch history data from: [text](https://realityflix.rmde
         }
     ]
 }
+```
 
 How to Run the Script
 1. Go to [text](https://realityflix.rmdev.zone/en/watch-history)
@@ -143,6 +144,7 @@ This will return:
         "season_number": 2
     }
 ]
+```
 
 Files
 - main.js -> Full runnable script with all logic
