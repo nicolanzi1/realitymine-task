@@ -23,9 +23,16 @@ The task was to extract watch history data from: [https://realityflix.rmdev.zone
 
 How to Run the Script
 1. Go to [https://realityflix.rmdev.zone/en/watch-history](https://realityflix.rmdev.zone/en/watch-history)
-2. Open DevTools -> go to the Console tab
-3. Paste the full script from main.js
-4. Press Enter to run it
+2. Open DevTools -> go to the Network tab
+3. Click on reload page, go to the Response tab, and copy the watchTime array of objects
+5. Still in DevTools -> go to the Console tab
+6. Add the following:
+7. ```js
+       const watchTime =
+   ```
+8. Then, paste the watchTime array of objects you previously copied
+9. After, paste the full script from main.js
+10. Press Enter to run it
 
 The extracted output will be logged as a formatted JSON object.
 
