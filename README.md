@@ -2,7 +2,7 @@
 
 This is a submission for the RealityMine watch history extraction challenge.
 
-The task was to extract watch history data from: [text](https://realityflix.rmdev.zone), using only **vanilla JavaScript** via the browser DevTools and output it in the following format:
+The task was to extract watch history data from: [https://realityflix.rmdev.zone](https://realityflix.rmdev.zone), using only **vanilla JavaScript** via the browser DevTools and output it in the following format:
 
 ```json
 {
@@ -22,7 +22,7 @@ The task was to extract watch history data from: [text](https://realityflix.rmde
 ```
 
 How to Run the Script
-1. Go to [text](https://realityflix.rmdev.zone/en/watch-history)
+1. Go to [https://realityflix.rmdev.zone/en/watch-history](https://realityflix.rmdev.zone/en/watch-history)
 2. Open DevTools -> go to the Console tab
 3. Paste the full script from main.js
 4. Press Enter to run it
